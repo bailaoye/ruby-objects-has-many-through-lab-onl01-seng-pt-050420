@@ -23,7 +23,6 @@ class Patient
       doctor.patient == self
     end
   end
-  end
 
   end
 
