@@ -27,9 +27,4 @@ class Doctor
     end
   end
 
-  def name
-    @name
-  end
-
-
 end
