@@ -24,7 +24,6 @@ class Patient
     end
   end
 
-  end
 
   def self.all
     @@all
