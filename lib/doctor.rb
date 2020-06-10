@@ -9,6 +9,9 @@ class Doctor
     @doctors << self
   end
 
+  def name(name)
+    @name = name
+
 
   def appointments
     Appointment.all.select do |appointment|
