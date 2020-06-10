@@ -5,13 +5,11 @@ class Patient
 
   def initialize(name)
     @name = name
-    @appointments = []
     @@all << self
   end
 
   def new_appointment(doctor, date)
-    new_appointment = Appointment.new(date, self, doctor)
-    @appointments << new_appointment
+    Appointment.new(date, self, doctor)
   end
 
   def appointments
