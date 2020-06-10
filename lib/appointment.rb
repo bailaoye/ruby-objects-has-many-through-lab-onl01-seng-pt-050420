@@ -10,6 +10,10 @@ class Appointment
     @@all << self
   end
 
+  def doctor
+    @doctor
+  end
+
   def self.all
     @@all
   end
