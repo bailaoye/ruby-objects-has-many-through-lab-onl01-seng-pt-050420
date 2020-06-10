@@ -19,7 +19,9 @@ class Patient
   end
 
   def doctors
-    
+    Appointment.all do |appointment|
+      appointment.doctor
+    end
   end
 
 
