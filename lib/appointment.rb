@@ -6,4 +6,8 @@ class Appointment
   def initialize(date)
     @date = date
   end
+
+  def self.all
+    @@all 
+  end
 end
