@@ -29,6 +29,7 @@ class Doctor
 
   def name
     @name
+  end
 
 
 end
