@@ -9,7 +9,7 @@ class Doctor
     @@doctors << self
   end
 
-  def name(name)
+  def name
     @name = name
   end
 
