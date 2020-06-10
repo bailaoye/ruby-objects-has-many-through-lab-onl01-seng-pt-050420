@@ -10,7 +10,7 @@ class Doctor
   end
 
   def name
-    @name = name
+    @name
   end
 
 
